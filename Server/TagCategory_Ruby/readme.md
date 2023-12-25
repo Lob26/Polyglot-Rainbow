@@ -1,38 +1,24 @@
-# Ruby on Rails
+# README
 
-# Estructura
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-```
-project-root/
-|-- Gemfile
-|-- Gemfile.lock
-|-- config/
-|   |-- database.yml
-|-- app/
-|   |-- controllers/
-|       |-- tags_controller.rb
-|   |-- models/
-|       |-- tag.rb
-|   |-- views/
-|-- db/
-|   |-- migrate/
-|       |-- xxx_create_tags.rb
-|-- config.ru
-|-- Rakefile
-```
-# Modelo
-```ruby
-class Tag < ApplicationRecord
-  # Asumiendo que ActiveRecord se usa para la interacción con la base de datos
-  validates :name, presence: true, uniqueness: true
-end
-```
-# To learn
-- Ruby on Rails 
-- Active record
-- Migraciones de Base de Datos
-- Controladores y Rutas
-- Validaciones
-- Vistas
-- Gemas en Ruby
-- Rack
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
