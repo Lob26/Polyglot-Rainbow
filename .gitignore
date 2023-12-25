@@ -1,0 +1,51 @@
+# Ignore Node.js related files in the Vue project
+Client/node_modules/
+
+# Ignore .NET related files in the CalendarIntegration_CS project
+Server/CalendarIntegration_CS/bin/
+Server/CalendarIntegration_CS/obj/
+
+# Ignore Java related files in the CalendarIntegration_Java project
+Server/CalendarIntegration_Java/target/
+
+# Ignore Python related files in the Notification_Python project
+Server/Notification_Python/__pycache__/
+Server/Notification_Python/*.pyc
+Server/Notification_Python/*.pyo
+Server/Notification_Python/__pycache__/
+Server/Notification_Python/.pytest_cache/
+Server/Notification_Python/venv/
+Server/Notification_Python/env/
+Server/Notification_Python/.venv/
+
+# Ignore PHP related files in the StatsReports_Php project
+Server/StatsReports_Php/vendor/
+Server/StatsReports_Php/storage/
+Server/StatsReports_Php/.env
+
+# Ignore Scala related files in the StatsReports_Scala project
+Server/StatsReports_Scala/target/
+Server/StatsReports_Scala/project/target/
+Server/StatsReports_Scala/.idea/
+
+# Ignore Ruby related files in the TagCategory_Ruby project
+Server/TagCategory_Ruby/db/*.sqlite3
+Server/TagCategory_Ruby/log/
+Server/TagCategory_Ruby/tmp/
+Server/TagCategory_Ruby/.bundle/
+Server/TagCategory_Ruby/vendor/
+Server/TagCategory_Ruby/node_modules/
+
+# Ignore Go related files in the Task_Gestion_Go project
+Server/Task_Gestion_Go/bin/
+Server/Task_Gestion_Go/pkg/
+
+# Ignore Rust related files in the UserGestion_Rust project
+Server/UserGestion_Rust/target/
+
+# Visual Studio Code related
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
